@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RowView">
+        <attr name="rowViewTitle" format="string" />
+        <attr name="rowViewLayout" />
+        <attr name="rowViewIcon" />
+    </declare-styleable>
+
+    <declare-styleable name="DefaultRowView">
+    </declare-styleable>
+
+    <declare-styleable name="CheckBoxRowView">
+        <attr name="easyCheckBoxStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SwitchRowView">
+        <attr name="easySwitchStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ListRowView">
+        <attr name="entries" format="reference" />
+        <attr name="entryValues" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="RowViews">
+        <attr name="EasyRowViewStyle" format="reference" />
+    </declare-styleable>
+
+    <attr name="rowViewLayout" format="reference" />
+    <attr name="rowViewIcon" format="reference" />
+</resources>

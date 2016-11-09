@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="dd">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="ff">
+        <item>fds</item>
+        <item>fdsaf</item>
+        <item>gdsa3</item>
+    </string-array>
+</resources>

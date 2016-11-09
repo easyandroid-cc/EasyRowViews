@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="rowViewIcon" type="id" />
+    <item name="rowViewTitle" type="id" />
+    <item name="rowViewValue" type="id" />
+    <item name="rowViewWidget" type="id" />
+</resources>

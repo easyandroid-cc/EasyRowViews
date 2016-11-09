@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="cc.easyandroid.easycommonviewdemo.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <cc.easyandroid.easyrowviews.widget.RowView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:rowViewTitle="测试" />
+
+    <cc.easyandroid.easyrowviews.widget.RowView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:rowViewTitle="测试1" />
+
+    <cc.easyandroid.easyrowviews.widget.RowView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:rowViewTitle="测试2" />
+
+    <cc.easyandroid.easyrowviews.widget.RowView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:rowViewTitle="测试3" />
+
+    <cc.easyandroid.easyrowviews.widget.ListRowView
+        android:id="@+id/listrowView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:entries="@array/ff"
+        app:entryValues="@array/dd"
+        app:rowViewTitle="测试4ListRowView" />
+    <cc.easyandroid.easyrowviews.widget.EditTextRowView
+        android:id="@+id/editTextRowView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:rowViewTitle="测试4ListRowView" />
+    <cc.easyandroid.easyrowviews.widget.CheckBoxRowView
+        android:id="@+id/checkBoxRowView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:rowViewTitle="测试4ListRowView" />
+    <cc.easyandroid.easyrowviews.widget.SwitchRowView
+        android:id="@+id/switchRowView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:rowViewTitle="测试4ListRowView" />
+
+</LinearLayout>
