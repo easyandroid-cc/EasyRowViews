@@ -8,7 +8,7 @@
     android:orientation="horizontal">
 
     <ImageView
-        android:id="@+id/rowViewIcon"
+        android:id="@id/rowViewIcon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
@@ -18,8 +18,8 @@
         tools:src="@android:drawable/presence_audio_away" />
 
     <TextView
-        android:id="@+id/rowViewTitle"
-        android:layout_width="0dp"
+        android:id="@id/rowViewTitle"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:ellipsize="end"
@@ -32,10 +32,11 @@
         tools:text="标题" />
 
     <TextView
-        android:id="@+id/rowViewValue"
+        android:id="@id/rowViewValue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_weight="1"
         android:ellipsize="end"
         android:gravity="center_vertical|right"
         android:singleLine="true"

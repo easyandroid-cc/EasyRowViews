@@ -18,9 +18,8 @@
 
     <TextView
         android:id="@id/rowViewTitle"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:layout_weight="1"
         android:ellipsize="end"
         android:gravity="center_vertical|left"
         android:paddingLeft="10dp"
@@ -35,22 +34,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_weight="1"
         android:ellipsize="end"
         android:gravity="center_vertical|right"
         android:singleLine="true"
         android:textColor="@android:color/darker_gray"
         android:textSize="14sp"
-        tools:text="rowViewValue" />
+        tools:text="rowViewValuerowViewValuerowViewValuerowViewValue" />
 
 
     <ImageView
-        android:id="@id/rowViewWidget"
+        android:id="@+id/rowViewWidget"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:paddingEnd="10dp"
-        tools:src="@android:drawable/arrow_down_float"
         android:paddingLeft="0dp"
-        android:paddingRight="10dp" />
+        android:paddingRight="10dp"
+        tools:src="@android:drawable/arrow_down_float" />
 
 </LinearLayout>
