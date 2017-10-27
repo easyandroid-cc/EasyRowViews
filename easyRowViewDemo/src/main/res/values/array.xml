@@ -4,10 +4,30 @@
         <item>1</item>
         <item>2</item>
         <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
     </integer-array>
     <string-array name="ff">
-        <item>fds</item>
-        <item>fdsaf</item>
-        <item>gdsa3</item>
+        <item>测试1</item>
+        <item>测试2</item>
+        <item>测试3</item>
+        <item>测试4</item>
+        <item>测试5</item>
+        <item>测试6</item>
+        <item>测试7</item>
+        <item>测试8</item>
+        <item>测试9</item>
+        <item>测试10</item>
+        <item>测试11</item>
+        <item>测试12</item>
+        <item>测试13</item>
     </string-array>
 </resources>

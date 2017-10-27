@@ -8,7 +8,7 @@ import cc.easyandroid.easyrowviews.core.Listener;
 import cc.easyandroid.easyrowviews.R;
 
 
-public class CompoundButtonRowView extends RowView {
+public abstract class CompoundButtonRowView extends RowView {
     protected CompoundButton compoundButton;
     private boolean mChecked = false;// 当前值
 
@@ -96,4 +96,6 @@ public class CompoundButtonRowView extends RowView {
         setChecked(restoreValue ? getPersistedBoolean(mChecked) : (Boolean) defaultValue, false);
     }
 
+    @Override
+    protected abstract int getRowViewLayout();
 }
