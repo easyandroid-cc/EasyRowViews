@@ -1,8 +1,5 @@
 package cc.easyandroid.easyrowviews.core;
 
-/**
- * Created by cgpllx on 2016/11/9.
- */
 public class ClickFilter {
 
     public static final long INTERVAL = 500L; //防止连续点击的时间间隔

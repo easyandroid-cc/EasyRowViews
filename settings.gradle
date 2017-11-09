@@ -1,2 +1,2 @@
-include ':easyRowViewDemo'
+//include ':easyRowViewDemo'
 include ':easyrowviews'
